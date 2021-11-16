@@ -19,7 +19,7 @@ resource "oci_core_instance" "ampere_a1" {
   }
   source_details {
     source_type = "image"
-    source_id   = data.oci_core_images.oraclelinux-8_4-aarch64.images.0.id
+    source_id   = "ocid1.image.oc1.ca-toronto-1.aaaaaaaaadskltmkresfetxtubtm2gpgxrpo4soc5orjbl3fswqwurly34kq"
   }
 
   metadata = {
