@@ -41,17 +41,17 @@ variable "instance_prefix" {
 
 variable "oci_vm_count" {
   description = "OCI Free Tier Ampere A1 is two instances"
-  default = 4
+  default = 2
 }
 
 variable "ampere_a1_vm_memory" {
-    default = "8"
+    default = "12"
     description = "Default RAM in GB for Ampere A1 instances in OCI Free Tier"
     type    = string
 }
 
 variable "ampere_a1_cpu_core_count" {
-    default = "1"
+    default = "2"
     description = "Default core count for Ampere A1 instances in OCI Free Tier"
     type    = string
 }
